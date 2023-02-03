@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projections</title>
+</head>
+<body>
+    <h1>Homework 3</h1>
+
+    <p>In this project, I learned how to display images in different projections. I used QGIS to display the maps in different projections. I used the Natural Earth 1:10m Cultural Vector data set to display the countries of the world in green and used the Urban Areas 1:10m Cultural Vector data set to display the urban areas of the world in red. I also mapped indicatrices using the Indicatrix Mapper plugin.</p>
+    
+    </p>
+    
+    <h2>WGS84 Projection</h2>
+    This is the WGS84 projection. You can see that as you look further from the equator, the width of an object will increase while the height will stay the same. This means this projection does not preserve area or shape but preserves direction.
+    <p></p>
+    <a href=".//maps/4326.png">
+    <img src=".//maps/4326.png" alt="WGS84" width='500px'>
+    </a>
+
+    <h2>Aitoff Projection</h2>
+    This is the Aitoff projection. You can see that as you look further from the equator, the object's shapes and size will distort. This projection does not preserve area, shape, or direction but provides an even middle ground. You can also see that the projection bloats towards the equator and caves in towards the poles.
+    <p></p>
+    <a href=".//maps/54043.png">
+    <img src=".//maps/54043.png" alt="Aitoff" width='500px'>
+    </a>
+
+    <h2>Pseudo-Mercator Projection</h2>
+    This is the Pseudo-Mercator projection. You can see that as you look further from the equator, an object's shape will distort. This projection preserves shape and direction but grossly distorts area.
+    <p></p>
+    <a href=".//maps/3857.png">
+    <img src=".//maps/3857.png" alt="Pseudo-Mercator" width='500px'>
+    </a>
+
+    <h2>Winkel Projection</h2>
+    This is the Winkel projection. You can see that as you look further from the equator, the object's shapes and size will distort. This projection does not preserve area, shape, or direction but provides an even middle ground. You can also see that the projection bloats towards the equator but does not cave in towards the poles.
+    <p></p>
+    <a href=".//maps/53018.png">
+    <img src=".//maps/53018.png" alt="Winkel" width='500px'>
+    </a>
+
+    <h2>Cylindrical Equal Area Projection</h2>
+    This is the Cylindrical Equal Area projection. You can see that as you look further from the equator, an object's shape will distort but the size will stay the same. This projection preserves area but distorts shape and direction.
+    <p></p>
+    <a href=".//maps/54034.png">
+    <img src=".//maps/54034.png" alt="Cylindrical Equal Area" width='500px'>
+    </a>
+
+    <h2>Equidistant Conic Projection</h2>
+    This is the Equidistant Conic projection. Unlike the previous projections, this projection is centered at the north pole and extends out to the south pole making it circular. You can see that distances along the meridians will always be proportionally correct. You can also see that the projection does not complete a full circle.
+    <p></p>
+    <a href=".//maps/54027.png">
+    <img src=".//maps/54027.png" alt="Equidistant Conic" width='500px'>
+    </a>
+    
+    <h2>North Pole Azimuthal Equidistant rojection</h2>
+    This is the North Pole Azimuthal Equidistant projection. This projection is similar to the Equidistant Conic Projection except that it completes a full circle making objects that span across the Pacific Ocean continuous. You can see that distances along the meridians will always be proportionally correct aswell.
+    <p></p>
+    <a href=".//maps/102016.png">
+    <img src=".//maps/102016.png" alt="North Pole Azimuthal Equidistant" width='500px'>
+    </a>
+
+    <h2>Near-Sided Perspective Projection</h2>
+    This is the Near-Sided Perspective projection. This projection refelects the way the Earth would appear if you looked at it from the side.
+    <p></p>
+    <a href=".//maps/54049.png">
+    <img src=".//maps/54049.png" alt="Near-Sided Prespective" width='500px'>
+    </a>
+
+    <h2>Eckert Projection</h2>
+    This is the Eckert projection. You can see that as you look further from the equator, the object's shapes and size will distort. This projection does not preserve area, shape, or direction but provides an even middle ground. You can also see that the projection linearly bloats towards the equator but does not cave in towards the poles.
+    <p></p>
+    <a href=".//maps/54043.png">
+    <img src=".//maps/54015.png" alt="Eckert" width='500px'>
+    </a>
+    <p></p>
+
+    <h2>Data used for this project</h2>
+    <a href="https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_admin_0_countries.zip"> Download Natural Earth 1:10m Cultural Vector</a>
+    <br>
+    <a href="Eckert">Download Urban Areas 1:10m Cultural Vector</a>
+</body>
+</html>
